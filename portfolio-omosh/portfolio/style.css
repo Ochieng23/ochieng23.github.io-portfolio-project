@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto' sans-serif;
+}
+body{
+    background-color:azure;
+    margin: 0px;
+}
+ header {
+margin-top: 0px;
+background-color: honeydew;
+}
+   
+nav{
+    display: flex;
+    margin: 0px;
+    align-items: center;
+    padding: 10px;
+    
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    align-items: center;
+}
+
+
+nav ul li a{
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+nav ul li a:hover{
+    cursor: pointer;
+    color: grey;
+    transform: scale(1.1);
+}
+nav a{
+  margin: 10px;
+  font-size: 30px;
+}
+
+.btn{
+    margin-left: 20%;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 5px;
+    transition: 0.3s;
+}
+.btn:hover{
+    color: red;
+    cursor: pointer;
+    scale: 1.1;
+}
+.btnn{
+    color: white;
+    background-color: black;
+padding: 5px;
+    transition: 0.3s;
+    position: absolute;
+  bottom: 20px;
+  left: 20%;
+  transform: translateX(-50%);
+}
+.btnn:hover:hover{
+    color: red;
+    cursor: pointer;
+    scale: 1.1;
+}
+.logo{
+    margin-right: 60px;
+}
+em{
+    color: black;
+}
+
+    
+ .banner{
+    position: relative;
+    background-image: url(https://www.simplilearn.com/ice9/free_resources_article_thumb/how_to_become_a_software_engineer.jpg);
+    background-size: cover;
+    background-image: rgba(76, 175, 80, 0.4);
+    width: auto;
+    height: 50vh;
+    margin-left: auto;
+    margin-top: 0px;
+    
+}
+.position{
+    inline-size: 500px;
+    color: white;
+    overflow-wrap: break-word;
+    margin-top: 10%;
+    margin-left: 11%;
+    font-size: 16px;
+    text-align: center;
+    background-color: transparent;
+    position: absolute;
+}
+
+
+.container{ 
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.clearfix{
+    border: 1px solid black;
+    padding: 20px;
+    background-color: honeydew;
+    box-shadow: 0.5px 10px #e6e6e6;
+    transition: 0.3s ease-in-out;
+    position: relative;
+}
+.container .clearfix:hover{
+    transform: scale(1.1);
+}
+.slideshow{
+    width: 100%;
+    height: 40vh;
+}
+.techs{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    margin-right: 2px;
+}
+.techs div img {
+    height: 5vh;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: honeydew;
+    margin-top: 0%;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  input[type=submit] {
+    color: white;
+    background-color: black;
+padding: 5px;
+    transition: 0.3s;
+    position: absolute;
+  bottom: 10px;
+  left: 15%;
+  transform: translateX(-50%);
+  }
+  
+
+  input[type=submit]:hover {
+    background-color:black;
+    color: red;
+    
+ 
+  
+  
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  h2{
+    text-align: center;
+  }
+  p{
+    text-align: left;
+    margin-top: 0;
+    padding: 15px;
+    word-wrap: break-word;
+    margin-bottom: 5px;
+    font-size: 1.2vw;
+    
+    
+  }
+  
+
+  * {box-sizing:border-box}
+
+.testimonial{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: #e6e6e6;
+}
+.slideshow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    height: 80vh;
+}
+.top{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}.arrow-left{
+height: 100px;
+cursor: pointer;
+transform: rotate(180deg);
+}
+.right-arrow{
+height: 100px;
+cursor: pointer;
+}
+.frame{
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+margin-top: 20px;
+position: relative;
+    
+}
+.slider{
+    display: flex;
+    transition: all 1s ease;
+    position: absolute;
+    
+}
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+    
+}
+
+
+.bottom{
+    display: flex;
+    gap: 30px;
+}
